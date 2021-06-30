@@ -11,7 +11,7 @@ import java.util.Date;
 @RestController
 public class TestController {
 
-    @Autowired
+    @Autowired(required = false)
     private UserMapper userMapper;
 
     @GetMapping("/test")
