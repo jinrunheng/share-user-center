@@ -18,6 +18,7 @@ public class TestController {
     public User testInsert() {
         User user = new User();
         user.setAvatarUrl("xxx");
+        user.setWxNickname("kim");
         user.setBonus(100);
         user.setCreateTime(new Date());
         user.setUpdateTime(new Date());
