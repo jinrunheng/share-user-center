@@ -10,3 +10,15 @@ spring:
       discovery:
         # 指定 nacos server 的地址
         server-addr: localhost:8848
+        # 指定 namespace
+        # namespace: 1d10868c-e95b-4764-a765-78bde20a20e0
+        # 指定集群名称
+        # cluster-name: SZ
+        # 设置元数据
+        # metadata:
+        # instance: c
+        #   version: v1
+        #   haha: haha
+  application:
+    # 服务名称尽量用 -，不要用 _ 更不要用特殊字符
+    name: user-center
